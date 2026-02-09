@@ -46,7 +46,11 @@ public class Main {
 
         // 3. Configurar benchmark y registrar algoritmos
         SortBenchmark benchmark = new SortBenchmark();
-
+        benchmark.addAlgorithm(new GnomeSort<>());
+        benchmark.addAlgorithm(new MergeSort<>());
+        benchmark.addAlgorithm(new QuickSort<>());
+        benchmark.addAlgorithm(new RadixSort());
+        benchmark.addAlgorithm(new HeapSort<>());
         // TODO: Registrar los algoritmos de sort cuando estén implementados.
         // Ejemplo de cómo se agregarán:
         //   benchmark.addAlgorithm(new GnomeSort<>());

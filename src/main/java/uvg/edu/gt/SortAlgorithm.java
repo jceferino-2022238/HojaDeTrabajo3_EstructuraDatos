@@ -6,7 +6,7 @@ package uvg.edu.gt;
  *
  * @param <T> tipo de elementos a ordenar, debe implementar Comparable
  */
-public abstract class SortAlgorithm<T extends Comparable<T>> {
+public abstract class SortAlgorithm<T extends Comparable<T>>  {
 
     /**
      * Ordena el arreglo in-place en orden ascendente.
